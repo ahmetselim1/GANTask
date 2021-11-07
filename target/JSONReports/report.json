@@ -1,0 +1,69 @@
+[
+  {
+    "line": 8,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-04T21:54:34.521Z",
+        "line": 22,
+        "name": "login with valid username and password (happy path)",
+        "description": "",
+        "id": "verify-moneygaming-registration-with-password;login-with-valid-username-and-password-(happy-path);;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 999700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User navigates to the moneygaming application",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_navigates_to_the_moneygaming_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters the username and abcd1@",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_enters_the_username_and_abcd1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on Join Now button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_clicks_on_join_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User views the success message.",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_views_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify moneygaming registration with password",
+    "description": "",
+    "id": "verify-moneygaming-registration-with-password",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/loginwithclick.feature",
+    "tags": []
+  }
+]

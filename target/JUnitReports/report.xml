@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="45.053">
+    <testcase classname="feature to testVerify moneygaming registration with password" name="Validate the Birthdate functionality (negative)" time="44.942">
+        <system-out><![CDATA[Given User navigates to the moneygaming application.........................passed
+When User enters the firstName and Surname..................................passed
+And User selects the tickbox for the termsandconditions.....................passed
+And User clicks on the Join Now button......................................passed
+Then User views the validation message for the date of birth field..........passed
+]]></system-out>
+    </testcase>
+</testsuite>
