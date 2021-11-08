@@ -12,7 +12,7 @@ public class RegisterToMoneyGamingSteps extends BaseDriver {
 
     }
 
-    //todo: #Test case 1: As a new customer, the user should not be able to create an account without the Birthdate field is missing.
+    //todo: #Test case 1: As a new customer, the user should not be able to create an account w/ the Birthdate field is missing.
 
     @Given("User navigates to the moneygaming application")
     public void user_navigates_to_the_moneygaming_application() {
