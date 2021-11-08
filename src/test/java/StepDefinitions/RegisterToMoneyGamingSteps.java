@@ -37,6 +37,7 @@ public class RegisterToMoneyGamingSteps extends BaseDriver {
 
     @When("User clicks on the Join Now button")
     public void user_clicks_on_the_Join_Now_button() {
+
         PageObjectBase.getJoinCheckBox().click();
     }
 
@@ -44,6 +45,9 @@ public class RegisterToMoneyGamingSteps extends BaseDriver {
     public void user_views_the_validation_message_for_the_date_of_birth_field() {
         String validationMessage = "This field is required";
         Assert.assertEquals(driver.findElement(By.xpath("//label[@for='dob']")).getText(), validationMessage);
+        Assert.assertEquals(driver.getCurrentUrl(), "https://moneygaming.qa.gameaccount.com/sign-up.shtml");
+        Assert.assertEquals(driver.getTitle(), "Join now to Play Online Casino Games - Free or Cash | MoneyGaming.com");
+
     }
 
 
